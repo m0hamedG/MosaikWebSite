@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlikler / Veranstaltungen – MOSAIK-Initiative Crailsheim</title>
+    <meta name="description"
+        content="MOSAIK-Initiative etkinlikleri – Crailsheim'de kültür, entegrasyon ve diyalog etkinlikleri.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="MOSAIK Logo" class="logo-img" onerror="this.style.display='none'">
+                <div class="logo-fallback"><span class="logo-title">MOSAIK</span><span
+                        class="logo-subtitle">Crailsheim</span></div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-page="index.html" data-tr="Ana Sayfa"
+                        data-de="Startseite">Ana Sayfa</a></li>
+                <li><a href="about.html" class="nav-link" data-page="about.html" data-tr="Hakkımızda"
+                        data-de="Über uns">Hakkımızda</a></li>
+                <li><a href="vision.html" class="nav-link" data-page="vision.html" data-tr="Vizyon & Misyon"
+                        data-de="Vision & Mission">Vizyon & Misyon</a></li>
+                <li><a href="events.html" class="nav-link" data-page="events.html" data-tr="Etkinlikler"
+                        data-de="Veranstaltungen">Etkinlikler</a></li>
+                <li><a href="contact.html" class="nav-link" data-page="contact.html" data-tr="İletişim"
+                        data-de="Kontakt">İletişim</a></li>
+            </ul>
+            <div class="lang-toggle">
+                <button class="lang-btn active" data-lang="tr">TR</button>
+                <button class="lang-btn" data-lang="de">DE</button>
+            </div>
+            <button class="hamburger" aria-label="Menü"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+    <div class="nav-overlay">
+        <a href="index.html" class="nav-link" data-tr="Ana Sayfa" data-de="Startseite">Ana Sayfa</a>
+        <a href="about.html" class="nav-link" data-tr="Hakkımızda" data-de="Über uns">Hakkımızda</a>
+        <a href="vision.html" class="nav-link" data-tr="Vizyon & Misyon" data-de="Vision & Mission">Vizyon & Misyon</a>
+        <a href="events.html" class="nav-link" data-tr="Etkinlikler" data-de="Veranstaltungen">Etkinlikler</a>
+        <a href="contact.html" class="nav-link" data-tr="İletişim" data-de="Kontakt">İletişim</a>
+        <div class="lang-toggle" style="margin-top:16px">
+            <button class="lang-btn" data-lang="tr">TR</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+    </div>
+
+    <!-- ═══ PAGE HERO ═══ -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html" data-tr="Ana Sayfa" data-de="Startseite">Ana Sayfa</a>
+                <span>›</span>
+                <span data-tr="Etkinlikler" data-de="Veranstaltungen">Etkinlikler</span>
+            </div>
+            <h1 data-tr="Etkinlikler" data-de="Veranstaltungen">Etkinlikler</h1>
+            <p data-tr="Yaklaşan ve geçmiş etkinliklerimizi keşfedin."
+                data-de="Entdecken Sie unsere bevorstehenden und vergangenen Veranstaltungen.">
+                Yaklaşan ve geçmiş etkinliklerimizi keşfedin.
+            </p>
+        </div>
+    </section>
+
+    <!-- ═══ UPCOMING EVENTS ═══ -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag" data-tr="Yaklaşan" data-de="Bevorstehend">Yaklaşan</span>
+                <h2 data-tr="Yaklaşan Etkinlikler" data-de="Bevorstehende Veranstaltungen">Yaklaşan Etkinlikler</h2>
+                <div class="mosaic-line left" style="margin:16px 0;"></div>
+            </div>
+
+            <div style="display:flex;flex-direction:column;gap:20px;">
+                <!-- Event 1 -->
+                <div class="event-card reveal">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month" data-tr="MAR" data-de="MÄR">MAR</span>
+                    </div>
+                    <div class="event-info" style="flex:1;">
+                        <h3 data-tr="Kültürlerarası Diyalog Gecesi" data-de="Interkulturelle Dialognacht">Kültürlerarası
+                            Diyalog Gecesi</h3>
+                        <p style="font-size:.9rem;"
+                            data-tr="Farklı kültürlerden insanların bir araya gelerek deneyimlerini paylaşacağı samimi bir buluşma gecesi."
+                            data-de="Ein geselliger Abend, bei dem Menschen aus verschiedenen Kulturen zusammenkommen und ihre Erfahrungen teilen.">
+                            Farklı kültürlerden insanların bir araya gelerek deneyimlerini paylaşacağı samimi bir
+                            buluşma gecesi.
+                        </p>
+                        <div class="event-meta">
+                            <span>📍 <span data-tr="Crailsheim Kültür Merkezi"
+                                    data-de="Kulturzentrum Crailsheim">Crailsheim Kültür Merkezi</span></span>
+                            <span>🕕 18:00</span>
+                            <span>🎟️ <span data-tr="Ücretsiz" data-de="Kostenfrei">Ücretsiz</span></span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:center;">
+                        <a href="contact.html" class="btn btn-outline" style="font-size:.85rem;padding:10px 20px;"
+                            data-tr="Katıl" data-de="Teilnehmen">Katıl</a>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="event-card reveal reveal-delay-1">
+                    <div class="event-date" style="background:var(--accent-green);">
+                        <span class="day">22</span>
+                        <span class="month" data-tr="MAR" data-de="MÄR">MAR</span>
+                    </div>
+                    <div class="event-info" style="flex:1;">
+                        <h3 data-tr="Ebeveynler için Okul Sistemi Bilgilendirmesi"
+                            data-de="Schulinformationsabend für Eltern">Ebeveynler için Okul Sistemi Bilgilendirmesi
+                        </h3>
+                        <p style="font-size:.9rem;"
+                            data-tr="Almanya'nın okul sistemi hakkında bilgi edinebilir, uzmanlardan sorularınızı sorabilirsiniz."
+                            data-de="Informieren Sie sich über das deutsche Schulsystem und stellen Sie Experten Ihre Fragen.">
+                            Almanya'nın okul sistemi hakkında bilgi edinebilir, uzmanlardan sorularınızı sorabilirsiniz.
+                        </p>
+                        <div class="event-meta">
+                            <span>📍 <span data-tr="Crailsheim Belediye Salonu" data-de="Ratssaal Crailsheim">Crailsheim
+                                    Belediye Salonu</span></span>
+                            <span>🕖 19:00</span>
+                            <span>🎟️ <span data-tr="Ücretsiz" data-de="Kostenfrei">Ücretsiz</span></span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:center;">
+                        <a href="contact.html" class="btn btn-outline" style="font-size:.85rem;padding:10px 20px;"
+                            data-tr="Katıl" data-de="Teilnehmen">Katıl</a>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="event-card reveal reveal-delay-2">
+                    <div class="event-date" style="background:var(--accent-orange);">
+                        <span class="day">05</span>
+                        <span class="month" data-tr="NİS" data-de="APR">NİS</span>
+                    </div>
+                    <div class="event-info" style="flex:1;">
+                        <h3 data-tr="Piknik & Sosyal Buluşma" data-de="Picknick & Soziales Treffen">Piknik & Sosyal
+                            Buluşma</h3>
+                        <p style="font-size:.9rem;"
+                            data-tr="Aileler ve gönüllülerle birlikte doğada keyifli bir gün geçirin. Çocuklar için aktiviteler de hazır!"
+                            data-de="Verbringen Sie einen schönen Tag in der Natur mit Familien und Freiwilligen. Aktivitäten für Kinder sind ebenfalls geplant!">
+                            Aileler ve gönüllülerle birlikte doğada keyifli bir gün geçirin. Çocuklar için aktiviteler
+                            de hazır!
+                        </p>
+                        <div class="event-meta">
+                            <span>📍 <span data-tr="Crailsheim Parkı" data-de="Stadtpark Crailsheim">Crailsheim
+                                    Parkı</span></span>
+                            <span>🕐 13:00</span>
+                            <span>🎟️ <span data-tr="Ücretsiz" data-de="Kostenfrei">Ücretsiz</span></span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:center;">
+                        <a href="contact.html" class="btn btn-outline" style="font-size:.85rem;padding:10px 20px;"
+                            data-tr="Katıl" data-de="Teilnehmen">Katıl</a>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="event-card reveal reveal-delay-3">
+                    <div class="event-date" style="background:var(--accent-teal);">
+                        <span class="day">18</span>
+                        <span class="month" data-tr="NİS" data-de="APR">NİS</span>
+                    </div>
+                    <div class="event-info" style="flex:1;">
+                        <h3 data-tr="Fotoğraf & Sanat Sergisi" data-de="Foto- & Kunstausstellung">Fotoğraf & Sanat
+                            Sergisi</h3>
+                        <p style="font-size:.9rem;"
+                            data-tr="Göç hikayelerini ve kültürel zenginliği yansıtan fotoğraf ve sanat eserlerinin sergilendiği etkinlik."
+                            data-de="Eine Veranstaltung, bei der Fotos und Kunstwerke präsentiert werden, die Migrationsgeschichten und kulturellen Reichtum widerspiegeln.">
+                            Göç hikayelerini ve kültürel zenginliği yansıtan fotoğraf ve sanat eserlerinin sergilendiği
+                            etkinlik.
+                        </p>
+                        <div class="event-meta">
+                            <span>📍 <span data-tr="Crailsheim Kültür Merkezi"
+                                    data-de="Kulturzentrum Crailsheim">Crailsheim Kültür Merkezi</span></span>
+                            <span>🕔 15:00–20:00</span>
+                            <span>🎟️ <span data-tr="Ücretsiz" data-de="Kostenfrei">Ücretsiz</span></span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items:center;">
+                        <a href="contact.html" class="btn btn-outline" style="font-size:.85rem;padding:10px 20px;"
+                            data-tr="Katıl" data-de="Teilnehmen">Katıl</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ ACTIVITY TYPES ═══ -->
+    <section class="section" style="background:var(--gray-50);">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <span class="tag" data-tr="Etkinlik Türleri" data-de="Veranstaltungsarten">Etkinlik Türleri</span>
+                <h2 data-tr="Neler Düzenliyoruz?" data-de="Was organisieren wir?">Neler Düzenliyoruz?</h2>
+                <div class="mosaic-line"></div>
+            </div>
+            <div class="activity-grid">
+                <div class="card reveal">
+                    <div class="card-body">
+                        <div class="activity-icon icon-blue">🎤</div>
+                        <h3 data-tr="Panel & Seminerler" data-de="Podiumsdiskussionen & Seminare">Panel & Seminerler
+                        </h3>
+                        <p data-tr="Güncel konularda uzman konuşmacıların katılımıyla paneller ve eğitimler."
+                            data-de="Podiumsdiskussionen und Seminare mit Experten zu aktuellen Themen.">Panel &
+                            Seminerler</p>
+                    </div>
+                </div>
+                <div class="card reveal reveal-delay-1">
+                    <div class="card-body">
+                        <div class="activity-icon icon-green">🎨</div>
+                        <h3 data-tr="Kültürel Sergiler" data-de="Kulturelle Ausstellungen">Kültürel Sergiler</h3>
+                        <p data-tr="Fotoğraf, sanat ve el sanatları sergileri ile kültürel tanıtım etkinlikleri."
+                            data-de="Foto-, Kunst- und Handwerksausstellungen und kulturelle Präsentationsveranstaltungen.">
+                            Kültürel Sergiler</p>
+                    </div>
+                </div>
+                <div class="card reveal reveal-delay-2">
+                    <div class="card-body">
+                        <div class="activity-icon icon-orange">👨‍👩‍👧‍👦</div>
+                        <h3 data-tr="Aile Etkinlikleri" data-de="Familienveranstaltungen">Aile Etkinlikleri</h3>
+                        <p data-tr="Piknik, okuma programları ve aile buluşmaları ile sosyal entegrasyon."
+                            data-de="Picknicks, Leseprogramme und Familientreffen zur sozialen Integration.">Aile
+                            Etkinlikleri</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
+    <section class="section cta-section">
+        <div class="cta-mosaic"></div>
+        <div class="container" style="position:relative;z-index:1;">
+            <div class="reveal text-center">
+                <h2 data-tr="Etkinliklerimizden Haberdar Olun"
+                    data-de="Bleiben Sie über unsere Veranstaltungen informiert">Etkinliklerimizden Haberdar Olun</h2>
+                <p data-tr="Yeni etkinliklerden ilk siz haberdar olmak için bizimle iletişime geçin."
+                    data-de="Kontaktieren Sie uns, um als Erste über neue Veranstaltungen informiert zu werden.">
+                    Yeni etkinliklerden ilk siz haberdar olmak için bizimle iletişime geçin.
+                </p>
+                <a href="contact.html" class="btn btn-white" style="margin-top:32px;">
+                    <span data-tr="İletişime Geç →" data-de="Kontakt aufnehmen →">İletişime Geç →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo" style="margin-bottom:16px;display:inline-flex;">
+                        <img src="logo.png" alt="MOSAIK Logo" style="height:44px;" onerror="this.style.display='none'">
+                        <div class="logo-fallback" style="margin-left:10px;"><span class="logo-title">MOSAIK</span><span
+                                class="logo-subtitle">Initiative</span></div>
+                    </a>
+                    <p data-tr="Crailsheim'de diyalog ve entegrasyon için mücadele eden gönüllü bir inisiyatif."
+                        data-de="Eine ehrenamtliche Initiative in Crailsheim für Dialog und Integration.">Crailsheim'de
+                        diyalog ve entegrasyon için mücadele eden gönüllü bir inisiyatif.</p>
+                    <div class="social-links"><a href="#" class="social-link">f</a><a href="#"
+                            class="social-link">📷</a><a href="#" class="social-link">💬</a></div>
+                </div>
+                <div>
+                    <h4 data-tr="Sayfalar" data-de="Seiten">Sayfalar</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-tr="Ana Sayfa" data-de="Startseite">Ana Sayfa</a></li>
+                        <li><a href="about.html" data-tr="Hakkımızda" data-de="Über uns">Hakkımızda</a></li>
+                        <li><a href="vision.html" data-tr="Vizyon & Misyon" data-de="Vision & Mission">Vizyon &
+                                Misyon</a></li>
+                        <li><a href="events.html" data-tr="Etkinlikler" data-de="Veranstaltungen">Etkinlikler</a></li>
+                        <li><a href="contact.html" data-tr="İletişim" data-de="Kontakt">İletişim</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-tr="Yasal" data-de="Rechtliches">Yasal</h4>
+                    <ul class="footer-links">
+                        <li><a href="impressum.html">Impressum</a></li>
+                        <li><a href="datenschutz.html" data-tr="Gizlilik Politikası" data-de="Datenschutz">Gizlilik
+                                Politikası</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 data-tr="İletişim" data-de="Kontakt">İletişim</h4>
+                    <div class="footer-contact-item"><span class="icon">📍</span><span>Crailsheim,
+                            Baden-Württemberg</span></div>
+                    <div class="footer-contact-item"><span class="icon">✉️</span><a
+                            href="mailto:info@mosaik-crailsheim.de"
+                            style="color:rgba(255,255,255,.55)">info@mosaik-crailsheim.de</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span data-tr="© 2025 MOSAIK-Initiative. Tüm hakları saklıdır."
+                    data-de="© 2025 MOSAIK-Initiative. Alle Rechte vorbehalten.">© 2025 MOSAIK-Initiative. Tüm hakları
+                    saklıdır.</span>
+                <div class="footer-legal">
+                    <a href="impressum.html">Impressum</a>
+                    <a href="datenschutz.html" data-tr="Gizlilik" data-de="Datenschutz">Gizlilik</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
